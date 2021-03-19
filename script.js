@@ -52,7 +52,7 @@ function logica() {
             changeSmallTekst(waarde2 + " verslaat " + waarde1);
         return "Speler 2 heeft gewonnen!";
     } else {
-        changeSmallTekst(waarde2 + " verslaat " + waarde1);
+        changeSmallTekst(waarde1 + " verslaat " + waarde2);
         return "Speler 1 heeft gewonnen!"
     }
 }
