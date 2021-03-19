@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+main{
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    padding:1rem;
+}
+
+ul{
+    display:flex;
+    list-style: none;
+}
+
+li{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin:2vw;
+    padding-bottom: 3rem;;
+    border: 3px solid rebeccapurple;
+    max-height: 70vh;
+}
+
+li:hover{
+    cursor: pointer;
+    background: rgba(83, 19, 144, 0.2);
+}
+
+img{
+    max-width:29vw;
+}
+
+h3{
+    font-size: 300%;;
+}
